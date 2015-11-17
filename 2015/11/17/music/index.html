@@ -88,7 +88,21 @@
 <link href="/pace/themes/red/pace-theme-flash.css" rel="stylesheet" />
 <script src="https://use.typekit.net/ljm3qrs.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
+<script type="text/javascript" language="javascript">
+function thenceThen(timespan){
+ var date1=new Date(timespan);
+ var totalSecs=(new Date()-date1)/1000;
+ var days=Math.floor(totalSecs/3600/24);
+ var hours=Math.floor((totalSecs-days*24*3600)/3600);
+ var mins=Math.floor((totalSecs-days*24*3600-hours*3600)/60);
+ var secs=Math.floor((totalSecs-days*24*3600-hours*3600-mins*60));
+ document.getElementById("thenceThen").innerText=days+" days.";
+}
+var clock;
+window.onload=function(){
+ clock=self.setInterval("thenceThen('2015/05/20')", 500);
+}
+</script>
 
 
   <title> 陪你度过漫长岁月 | Panro </title>
@@ -497,7 +511,7 @@
   <span class="with-love">
     <i class="icon-next-heart fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Pan in Love with Pan</span>
+  <span class="author" itemprop="copyrightHolder">Pan in Love with Pan for&nbsp;</span><span id="thenceThen"></span>
 </div>
 
 <div class="powered-by">
