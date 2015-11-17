@@ -55,7 +55,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 2.2em;
   margin: 0.67em 0;
 }
 mark {
@@ -186,7 +186,7 @@ th {
 body {
   position: relative;
   font-family: "museo-slab", "source-han-sans-simplified-c", "source-han-sans-traditional", "Microsoft YaHei", Verdana, sans-serif;
-  font-size: 14px;
+  font-size: 1.1em;
   line-height: 2;
   color: #555;
   background: #fff;
@@ -961,7 +961,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #46ac59;
+  background: #2140d1;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -1201,7 +1201,7 @@ body {
   margin: 10px auto 0;
   padding: 2px 0;
   border-bottom: 1px solid #999;
-  font-size: 14px;
+  font-size: 1.1em;
   color: #999;
   font-weight: bold;
   line-height: 1;
