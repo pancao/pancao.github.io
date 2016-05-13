@@ -961,7 +961,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #601cff;
+  background: #db9940;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -1909,9 +1909,9 @@ body {
 }
 .custom-logo-image {
   margin: 0 auto;
-  padding: 5px;
+  padding: 0px;
   max-width: 150px;
-  background-image : url(https://unsplash.it/100/?random);
+  background-image: url("https://unsplash.it/150/?blur");
 }
 @media (max-width: 767px) {
   .site-nav {
